@@ -8,6 +8,7 @@ pipeline {
             steps {
                 sh 'node -v'
                 sh 'npm install'
+                sh 'npm start'                
             }
         }
         stage('Test') {
